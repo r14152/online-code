@@ -62,6 +62,8 @@ int main(){
              int sum1 = summatIon(h1);
              int sum2 = summatIon(h2);    //this function is use to add the vector element and return the value in the sum1;
              int sum3 = summatIon(h3);
+             
+             //i think i sbstrack each time that element which i delete so its may be the complexity of that program is come.
              if(sum1==0 || sum2==0 ||sum3==0)
                 {
                    cout  << 0 << endl;
